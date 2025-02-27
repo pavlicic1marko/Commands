@@ -1,0 +1,11 @@
+PIP:
+pip freeze > requirements.txt
+python.exe -m pip install --upgrade pip
+
+PYINSTALLER:
+pyinstaller main.py     # create build and distribution files
+pyinstaller --name botLW --onefile --windowed --icon=build-files\\icon.ico main.py
+
+STREAMLIT:
+streamlit run main.py
+
