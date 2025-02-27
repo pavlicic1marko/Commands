@@ -2,4 +2,5 @@ START GUI:
 .\jmeter.bat
 
 RUN TEST IN CMD:
+./jmeter -n -t test_plan.jmx -l results.jtl
 jmeter -n -t test_plan.jmx -l results.jtl
